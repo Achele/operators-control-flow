@@ -22,14 +22,14 @@ A JavaScript practice questions and answer
 
 - Comparison Operators
 
-  - ==
-  - ===
-  - !=
-  - !==
+  - ==,
+  - ===,
+  - !=,
+  - !==,
   - >
-  - <
+  - <,
   - >=
-  - <=
+  - <=,
   - ?
 
 - Logical Operators
