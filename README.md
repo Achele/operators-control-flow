@@ -5,11 +5,10 @@ A JavaScript practice questions and answer
 ### Task 1: List the symbols for each of the below JavaScript operators
 
 - Arithmetic Operators - The symbols are:
-
-  - +
-  - *
+  - +,
+  - *,
   - /
-  - -
+  - -,
   - %
 
 - Assignment Operators - used to assign values to variables. The symbols are:
