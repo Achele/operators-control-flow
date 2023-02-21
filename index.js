@@ -22,8 +22,23 @@ if (classGroup == "Art") {
 }
 
 // QUESTION 5
-let num = 70;
-function pwr() {
-  return Math.pow(2, 6);
+// PSUEDO CODE
+/* initialize num and use a for loop to iterate through it, 
+- find the power of 2 nearest to num
+- check if power2 is less than num
+-  the resulting ans is stored to pwr
+*/
+let num;
+let pwr;
+
+function powerOfTwo(num) {
+  for (let i = 0; i < num; i++) {
+    let power2 = 2 ** i;
+    if (power2 < num || num - power2 > power2 * 2 - num) {
+      pwr = power2;
+    }
+  }
+  console.log(`The number ${pwr} is the power of 2 nearest to ${num}`);
 }
-console.log(`The number ${pwr()} is the power of 2 nearest to ${num}.`);
+
+console.log(powerOfTwo(40));
